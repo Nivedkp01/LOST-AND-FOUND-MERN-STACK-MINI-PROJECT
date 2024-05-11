@@ -1,0 +1,54 @@
+
+
+  
+.detailedimg{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: #252526;
+    padding: 10px;
+}
+.connect{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainc{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+p{
+    font-size: 17px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: -5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.chat{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detailedimg:hover{
+    transform: scale(1.1);
+}
+
+
+.btn12{
+    height:40px;
+}

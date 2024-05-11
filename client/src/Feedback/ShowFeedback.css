@@ -1,0 +1,61 @@
+.feedDiv {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    justify-content: flex-start; /* Adjust as needed */
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 100px;
+    padding-left: 100px; /* Adjust padding */
+    padding-right: 100px; /* Adjust padding */
+    height: 80vh;
+    align-items: center;
+    z-index: -1;
+}
+
+.feedi {
+    flex-shrink: 0; /* Ensure fixed width */
+    width: 300px; /* Fixed width for each feedback item */
+    height: 300px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
+
+.quo {
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 20%;
+}
+
+.lq {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.uq {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/* Hide scrollbar */
+.feedDiv::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar thumb */
+.feedDiv::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+p {
+    font-size: 11px;
+}

@@ -1,0 +1,33 @@
+.conversation{
+    display: flex;
+}
+
+.conv{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 5px;
+
+}
+
+/* .conv:hover{
+    background-color: rgb(223, 218, 218);
+} */
+
+.avatar{
+    background-color: rgb(173, 171, 171);
+    border-radius: 50%;
+    padding: 5px;
+    
+    
+    
+}
+
+
+.conv:hover{
+    background-color: rgb(228, 224, 224);
+   
+}

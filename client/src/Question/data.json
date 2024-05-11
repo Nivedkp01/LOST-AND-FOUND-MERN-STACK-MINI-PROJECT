@@ -1,0 +1,85 @@
+{
+    "categories": {
+      "Mobile": {
+        "1": "What is the brand and model of the phone?",
+        "2": "Can you describe the color and any distinguishing features of the phone?",
+        "3": "Is there any protective case on the phone, and if so, what does it look like?",
+        "4": "Is the phone locked with a passcode, pattern, or biometric security?"
+      },
+      "Pet": {
+        "1": "What type of pet is it (dog, cat, bird, etc.)?",
+        "2": "Can you describe the pet's breed, size, color, and any distinctive markings?",
+        "3": "Does the pet have any identification tags, collars, or microchips?",
+        "4": "Does the pet respond to any particular name or commands?"
+      },
+      "Automobiles": {
+        "1": "Can you describe the make, model, and year of the vehicle?",
+        "2": "What color is the vehicle, and does it have any distinctive features or modifications?",
+        "3": "Do you know the license plate number of the vehicle?",
+        "4": "Is there any special or personalized license plate on the vehicle?",
+        "5": "Is there any indication of ownership, such as a name on the registration or documents?"
+      },
+      "Bag": {
+        "1": "Can you describe the size, shape, and color of the bag?",
+        "2": "Does the bag have any distinctive features, such as logos, patterns, or decorations?",
+        "3": "What type of bag is it (e.g., backpack, handbag, messenger bag)?",
+        "4": "Can you provide a list of items that were inside the bag when it was lost?",
+        "5": "Did you have any identification or contact information inside the bag?"
+      },
+      "Document": {
+        "1": "What type of document is missing (e.g., passport, driver's license, birth certificate, academic transcript)?",
+        "2": "Can you describe the document's purpose or what it is used for?",
+        "3": "Can you provide a detailed description of the document, including its size, color, and any distinctive features or markings?",
+        "4": "Does the document bear any official seals, stamps, or signatures?",
+        "5": "What information is contained within the document (e.g., name, date of birth, identification numbers)?"
+      },
+      "Laptop": {
+        "1": "Can you describe the make, model, and color of the laptop?",
+        "2": "Does the laptop have any distinctive features or markings?",
+        "3": "Are there any accessories or peripherals (e.g., laptop bag, mouse) that were with the laptop?",
+        "4": "Was it left in a specific location, such as a coffee shop, office, or public transportation?"
+      },
+      "Jewelry": {
+        "1": "Can you describe the type of jewelry that was found?",
+        "2": "What is the material of the jewelry, and does it appear to be valuable or precious?",
+        "3": "Is the jewelry in good condition, or does it show signs of damage or wear?",
+        "4": "Is there any identifying marks or engravings on the jewelry?"
+      },
+      "Fashion": {
+        "1": "Can you describe the type of fashion accessory that is lost (e.g., handbag, sunglasses, scarf)?",
+        "2": "What is the color, size, and material of the accessory?",
+        "3": "Does the accessory have any distinctive features or embellishments?",
+        "4": "Is the accessory associated with a specific brand or designer?",
+        "5": "Are there any logos or labels on the accessory that could help identify its origin?"
+      },
+      "Key": {
+        "1": "Can you describe the type of keys that are lost (e.g., house keys, car keys, office keys)?",
+        "2": "What is the color, size, and shape of the keys?",
+        "3": "Are there any distinctive features or keychains attached to the keys?",
+        "4": "How many keys were on the keyring or keychain?",
+        "5": "Are the keys in good condition, or do they show signs of damage or wear?"
+      },
+      "Watch": {
+        "1": "Can you describe the type of watch that is lost (e.g., wristwatch, pocket watch)?",
+        "2": "What is the brand, model, and style of the watch?",
+        "3": "What materials is the watch made of (e.g., stainless steel, gold, leather strap)?",
+        "4": "Does the watch have any unique features or complications (e.g., chronograph, date display, moon phase)?",
+        "5": "Are there any distinguishing marks, engravings, or serial numbers on the watch?"
+      },
+      "Clothes": {
+        "1": "Can you describe the type of fashion accessory that is lost (e.g., handbag, belt, scarf)?",
+        "2": "What is the color, size, and material of the accessory?",
+        "3": "Does the accessory have any distinctive features, patterns, or embellishments?",
+        "4": "Can you describe the type of fashion accessory that is lost (e.g., handbag, belt, scarf)?",
+        "5": "Does the accessory have any distinctive features, patterns, or embellishments?"
+      },
+      "Others": {
+        "1": "Can you describe the lost item? What does it look like, and what are its distinguishing features?",
+        "2": "Is there any specific brand, model, or label associated with the item?",
+        "3": "What materials is the item made of?",
+        "4": "Does the item have significant monetary value?",
+        "5": "Is there any sentimental value attached to the item?"
+      }
+    }
+  }
+  

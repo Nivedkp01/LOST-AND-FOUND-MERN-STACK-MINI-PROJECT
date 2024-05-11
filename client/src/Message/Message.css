@@ -1,0 +1,58 @@
+.message{
+    height: 100vh;
+    display: flex;
+}
+
+.chatBox{
+    flex: 5.5;
+}
+
+.chatMenu{
+    flex: 3.5;
+}
+
+.chatOnline{
+    flex: 3.5;
+}
+
+.inpsearch{
+    width: 85%;
+    outline:none;
+    border: none;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+.chatinp{
+    width: 70%;
+    height: 20%;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.chatbottom{
+    display: flex;
+    gap: 30px;
+    gap: 20px;
+  
+}
+
+.chatBoxWrapper{
+    height: 100vh;
+}
+
+.chattop{
+    overflow-y: scroll;
+    height: 80%;
+}
+
+
+.send{
+    border: none;
+    outline: none;
+   padding: 15px;
+}

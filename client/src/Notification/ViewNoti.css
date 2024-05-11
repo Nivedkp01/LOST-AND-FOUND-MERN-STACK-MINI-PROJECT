@@ -1,0 +1,30 @@
+.n{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding:10px ;
+    margin-left: 350px;
+    margin-top: 200px;
+    gap: 10px;
+    flex-direction: col;
+    padding: 50px;
+}
+
+.hea14{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+
+
+.det{
+    display: flex;
+    flex-direction: column;
+   
+}

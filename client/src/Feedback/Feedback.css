@@ -1,0 +1,46 @@
+.feedback{
+    display: flex;
+    justify-content: space-around;
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+  
+    padding: 10px;
+}
+
+.btn30{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #d0cfcf;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.btn30:hover{
+    background-color: gray;
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+}

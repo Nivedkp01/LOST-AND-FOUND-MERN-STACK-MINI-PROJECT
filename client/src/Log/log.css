@@ -1,0 +1,67 @@
+.login{
+    height: 100vh;
+    /* background-color: #e9e5ff; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftdiv{
+width: 50%;
+background-color: white;
+height: 100%;
+border-radius: 20px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.rightdiv{
+    height: 108%;
+    width: 50%;
+    background-image: url('./Mobile\ login-pana.png');
+    background-size: cover;
+    border-radius: 20px;
+    border: 5px solid #f2f1fe;
+
+}
+
+.maindiv{
+    display: flex;
+    height: 60%;
+    width: 70%;
+}
+
+.inp{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f2f1fe;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.inp1{
+    border: none;
+    outline: none;
+    background-color: #f2f1fe;
+    border-radius: 20px;
+    padding:10px;
+ 
+}
+
+
+.btns{
+    background-color: white;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.btns:hover{
+    background-color: #a897f4;
+}

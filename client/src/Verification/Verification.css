@@ -1,0 +1,151 @@
+.verify{
+ 
+    width: 100wh;
+    margin: 30px;
+
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.leftside{
+    width: 50%;
+    /* border-right: 5px solid black; */
+   
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.rightside{
+    width: 50%;
+    /* border-left: 5px solid black; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+
+
+}
+
+
+
+.card1 {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, black, rgb(45, 44, 44));
+    color: white;
+    padding-top: -300px; /* Adjust the top padding */
+    padding-bottom: -123px; /* Adjust the bottom padding */
+}
+
+.btn20{
+    background-color: #737474;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.hea27{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+
+}
+
+.btn27{
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.btn27:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  
+    
+}
+
+/*  */
+
+.btn{
+    border: 0px;
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    border: 0px;
+    outline: 0;
+    background-color: white;
+    color:#1a2a4e;
+
+}
+
+.imagee{
+    height: 100px;
+    width: 100px;
+}
+
+.img20{
+    width: 300px;
+    height: 180px;
+}
+
+.deactive{
+    display: none;
+}
+
+.heros{
+    display: flex;
+    flex-direction: row;
+}
+
+.Hero{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    /* flex-direction: row; */
+}
+
+.Herodiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap;
+}
+
+.cardss{
+    display: flex;
+    gap: 20px;
+    z-index: -1;
+}
+
+.userimg{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,30 @@
+.inp12{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 120px;
+    border-radius: 20px;
+    border: 2px;
+}
+
+.main2{
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #f9f9f9;
+
+    border-radius: 20px;
+}
+
+.btn25{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 200px;
+    height: 30px;
+}

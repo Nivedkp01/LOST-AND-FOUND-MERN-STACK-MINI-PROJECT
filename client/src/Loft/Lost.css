@@ -1,0 +1,65 @@
+.lost{
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+}
+
+.cards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 70px;
+    z-index: -1;
+}
+
+
+.hea3{
+    display: flex;
+    align-items: center;
+    margin-left:170px ;
+    gap: 10px;
+}
+
+.cardi1{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #252526;
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.lost{
+    z-index: -1;
+}
+
+.img202{
+    width: 150px;
+    height: 150px;
+}
+
+
+.inp21{
+    width: 40%;
+    padding: 15px;
+    color: black;
+    border-bottom:1px solid black ;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    
+
+}
+.sea:hover{
+    transform: scale(1.1);
+}
+.inp21::placeholder{
+    color: black;
+}
+

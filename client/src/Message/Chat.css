@@ -1,0 +1,49 @@
+.chat{
+    display: flex;
+    gap: 4px;
+}
+
+.name1{
+    font-weight: bold;
+}
+
+.chat {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange elements vertically */
+  }
+  
+  .chat p {
+    margin: 0; /* Remove default margin to ensure consistent spacing */
+  }
+  
+  .chat .text {
+    margin-bottom: 5px; /* Add margin bottom to separate message text and creation time */
+  }
+  
+  .chat .time {
+    font-size: 10px;
+    align-self: flex-start; /* Align the creation time to the bottom left */
+  }
+  .chat {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .chat.owner {
+    align-self: flex-end; /* Align to the right end for the owner's messages */
+    background-color: blue; /* Background color for owner's messages */
+    color: white; /* Text color for owner's messages */
+  }
+  
+  .chat .text {
+    margin: 0;
+  }
+  
+  .chat .time {
+    font-size: 10px;
+  }
+    
+  

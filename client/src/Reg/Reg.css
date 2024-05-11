@@ -1,0 +1,111 @@
+.Reg{
+    height: 100vh;
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.leftdiv{
+width: 50%;
+background-color: #ebebeb;
+height: 100%;
+border-radius: 20px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-right: 5px solid ;
+}
+
+.rightdivv{
+    height: 100%;
+    width: 50%;
+    border-radius: 25px;
+    /* border-left: 5px solid; */
+
+}
+.img1{
+
+    width: 110%;
+    height: 110%;
+    margin: 0;
+
+}
+
+.maindiv{
+    display: flex;
+    height: 60%;
+    width: 60%;
+}
+
+.inp{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.inp11{
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+    padding:10px;
+    width: 300px;
+    
+ 
+}
+
+
+.btns{
+    background-color: white;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+.btns:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.outerdiv{
+    height: 100vh;
+    width: 100wh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.errordiv{
+    width: 50%;
+    position: absolute;
+    bottom: 30px;
+    background-color: rgb(247, 147, 147);
+}
+.cross{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px;
+}
+.cross:hover {
+    transform: scale(1.2);
+}
+
+.successdiv{
+    width: 50%;
+    position: absolute;
+    bottom: 30px;
+    background-color: rgb(161, 245, 161);
+}

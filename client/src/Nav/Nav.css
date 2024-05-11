@@ -1,0 +1,129 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right:10% ;
+    background-color: #252526;
+   
+    width: 1200px;
+    position: relative;
+    
+}
+
+
+
+.details1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30%;
+    margin-right: 15%;
+}
+
+.userd{
+    
+}
+.showitem{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    color: black;
+    background-color: #252526;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.showitem1{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    color: white;
+    background-color: #252526;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+}
+
+.disable{
+    display: none;
+}
+.logoo{
+    width: 150px;
+    height: 150px;
+}
+.log{
+    color: white;
+}
+.name{
+    /* color: #ffb51a; */
+    color:white;
+}
+.log:hover
+{
+    color: gray;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.log1:hover
+{
+    color: gray;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.menu1{
+    position: absolute;
+    right:25px;
+}
+
+.he{
+    right: 200px;
+}
+
+.he2{
+    right: 255px;
+}
+
+.he3{
+    position: absolute;
+    right: 20px;
+    bottom: 4.5px;
+}
+
+.d{
+    display: none;
+}
+
+.log1{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.userd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.hea12{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reportitem{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 38%;
+}
